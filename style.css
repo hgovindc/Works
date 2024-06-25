@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(249, 252, 249);
+    display: grid;
+    
+     grid-template-columns: repeat(2,1);
+     grid-template-rows: repeat(7,100%); 
+     /* grid-gap: 30px; */
+
+}
+.child1,.child2,.child3,.child4,.child5,.child6,.child7,.child8,.child9,.child10{
+    background-color: yellow;
+    border: 1px solid black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.child1{
+    grid-column: 1/ span 2;
+    object-fit: cover;
+    position: relative;
+
+    
+
+}
+.child2{
+    
+}
