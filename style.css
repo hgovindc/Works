@@ -18,7 +18,7 @@ img{
 
 
    
-.child1{
+.child{
     position:relative;
 }
 h1{
@@ -55,4 +55,52 @@ h1{
  li{
     margin: 10px;
  }
+ .child1{
+
+    h4{
+        font-size: 87px;
+        text-align: center;
+
+    }
+    p{
+        text-align: center;
+    }
+    p{
+        font-style;
+    }
+       
+    }
+
+ .child4{
+    h4{
+        font-size: 87px;
+
+    }
+    p{
+        text-align: center;
+    }
+    .p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+ }
+ .child5,.chilld6{
+    position: relative
+    
+    
+}
+.text5{
+    position: absolute; 
+    top: 55%;
+    width: 60%;
+    left: 30%;
+    font-size: 30px;
+
+}
+.text6{
+    position: absolute; 
+    top: 90%;
+    width: 20%;
+left:57% ;
+    font-size: 25px;
+
  
