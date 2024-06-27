@@ -1,181 +1,58 @@
 *{
-    margin: 0;
-    padding: 0;
+    /* margin: 0; */
+    /* padding: 0; */
 }
 img{
     width: 100%;
     height:100%; 
-}
-.parent{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(242, 252,249);
-    display:grid;
-    grid-template-columns: repeat(2,50%);
-    grid-template-rows: repeat(7,100%);
-    }
-   .child1,.child2,.child3,.child4,.child5,.child6,.child7,.child8,.child9,.child10{
-    background-color: white;
-    border: 1px solid black;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-.child1{
-    position:relative;
-    grid-column: 1/span 2;
+
 
 }
+.grid{
+    border: 1px ;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+
+    
+}
+
+
+   
+.child1{
+    position:relative;
+}
 h1{
-    top:10px;
+    top:5px;
     position: absolute;
     color: white;
     padding:10px 10px;
+    left: 9px;
+    }
+    h2{
+        top:85px;
+        padding: 10px 10px;
+        color: white;
+        position: absolute;
+        left: 50%;
     }
  ul{
-    top:1opx;
+    top:8px;
+    padding: 3px;
     position: absolute;
     color: white;
-    right: 10%;
+    right: 2%;
     display: flex;
     list-style: none;
- }   
+ } 
+ li:hover{
+    background-color: white;
+    border-radius:2px;
+    color: black;
+    padding: 2px;
+    border-radius: 8px;
+
+ }  
  li{
     margin: 10px;
  }
- .child2{
-    position: relative;
-    text-align: left;
- }
- h3{
-    position: absolute;
-    font-size: 40px;
-    padding: 10px 200px;
-    top: 25%;
-}
-child2 p{
-    font-size: 20px;
-    padding: 280px 180px;
-}
-h5{
-    position: absolute;
-    top:60%;
-    left:180px;
-}
-h6{
-    top:15px;
-    position: absolute;
-    font-size: 16px;
-    border: 2px solid white;
-    border-radius: 40%;
-    background-color: white;
-    padding:2px 8px;
-    height: 20px;
-    left:90%
-    }
-    h2{
-        top: 30%;
-        position: absolute;
-        font-size: 40px;
-        color: white;
-        left: 38%;
-}
-.child3{
-    object-fit: cover;
-    width:100%;
-    height:100vh;
-}
-.zz{
-    width: 100%;
-    height: 100vh;
-}
-.child4{
-    object-fit: cover;
-}
-.qq{
-    width: 100%;
-    height: 100vh;
-}
-.child5{
-    position: relative;
-    text-align: center;
-
-}
-.child5 h7{
-    position: absolute;
-    font-size: 40px;
-    padding: 10px 200px;
-    top:25%;
-
-}
-.child6{
-    position: relative;
-    text-align: center;
-
-}
-.ww{
-    width: 100%;
-    height: 100vh;
-}
-.child6 h9{
-    top:60%;
-    position: absolute;
-    padding: 10px 300px;
-    font-size: 40px;
-    }
-    .child6 p{
-        position: absolute;
-        top:75%;
-        font-size: 20px;
-        padding: 10px 150px;
-
-    }
-    .child7{
-        position: relative;
-        text-align: center;
-    }
-    .ee{
-        width: 100%;
-        height:100vh;
-    }
-    .child7 h10{
-        top:60%;
-        position: absolute;
-        padding: 10px 330px;
-        font-size: 40px;
-
-    }
-    .child7 p{
-        position: absolute;
-        top:75%;
-        font-size: 20px;
-        padding: 10px 150px;
-    }
- .child8{
-    position: relative;
-    grid-column: 1/span2;
-    font-size: 25px;
-    color: darkgray;
- }
- .child8 h8{
-    position: absolute;
-    top: 10%;
-    left:40%;
-}
-.chippu{
-    position: absolute;
-    display: flex;
-    width: 50%;
-    height: 30%;
-    justify-content: space-evenly;
-    padding:10px 150px;
-    column-gap:40px;                                                                                                    
-
-}
-.rr,.tt,.yy{
-    width: 50%;
-    border:1px solid black;
-    align-items: center;
-    justify-content: space-evenly;
-
-}
+ 
