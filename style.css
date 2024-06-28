@@ -26,14 +26,15 @@ h1{
     position: absolute;
     color: white;
     padding:10px 10px;
-    left: 9px;
+    left: 8px;
     }
     h2{
-        top:85px;
+         font-size: 40px;
+        top:350px;
         padding: 10px 10px;
         color: white;
         position: absolute;
-        left: 50%;
+        left:35%;
     }
  ul{
     top:8px;
@@ -48,8 +49,8 @@ h1{
     background-color: white;
     border-radius:2px;
     color: black;
-    padding: 2px;
-    border-radius: 8px;
+    padding: 10px;
+    border-radius: 10px;
 
  }  
  li{
@@ -58,26 +59,33 @@ h1{
  .child1{
 
     h4{
-        font-size: 87px;
-        text-align: center;
+        font-size: 70px;
+        margin-left: 10%;
 
     }
     p{
         text-align: center;
+        margin-left: 10%;
+        margin-right:10%;
+        font-size: 20px;
     }
     p{
-        font-style;
+        
     }
        
     }
 
  .child4{
     h4{
-        font-size: 87px;
+        font-size: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
 
     }
     p{
-        text-align: center;
+        font-size: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .p{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -85,45 +93,48 @@ h1{
  }
  .child5,.chilld6{
     position: relative
-    
+
     
 }
 .text5{
     position: absolute; 
-    top: 55%;
-    width: 60%;
-    left: 30%;
-    font-size: 25px;
+    top: 50%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 20px;
 
 }
 .text6{
     position: absolute; 
-    top: 65%;
-    width: 20%;
+    top: 79%;
+    margin-left: 10%;
+    margin-right:10%;
       left:57%;
-    font-size: 25px;
+    font-size: 20px
 }
-.staffs{
-        padding: 50px;
-        display: flex;
-        flex-wrap: wrap;
-    justify-content: space-evenly;
 
     
-    }
     .h3{
-        position: absolute;
         opacity: 10%;
+        opacity: 5%;
         right:40%;
         font-size: 40px;
         text-align: center;
     
     }
+    .staffs{
+        padding: 50px;
+        display:flex ;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
     .staff{
-        display: flex;
-        padding: 30px;
-        width:18rem;
-        box-shadow: 0px opx 10px 10px;
+        padding: 5px;
+        text-align: center;
+        width: 18rem;
+        box-shadow: 10px 10px   10px 10px;
+
+
     }
     .staff>img{
         width: 100px;
@@ -144,23 +155,36 @@ h1{
     
        position: absolute;
         top: 115%;
+        
         background-color: rgb(60,221,167);
-        width: 100%;
+        width: 90%;
         height: 20px;
-        padding: 5%;
+        padding: 10%;
+        margin: 1px;
     }
     .oo{
         position: absolute;
+        left: 14%;
         text-align: center;
-        top:5%;
+        top:45%;
         padding: 10px 160px;
         display: flex;
         font-size:25px;
         margin-left: 20%;
+        
         list-style: none;
+        flex-wrap: wrap;
     
 
-    ul{
+    li{
+        color: black;
+        
+        left: 5%;
+        font-size: 10px;
+        top: 40%;
+        justify-content: space-between;
+        display: flex;
+            
         
     }
 }
