@@ -34,7 +34,7 @@ h1{
         padding: 10px 10px;
         color: white;
         position: absolute;
-        left:35%;
+        left:38%;
     }
  ul{
     top:8px;
@@ -49,7 +49,7 @@ h1{
     background-color: white;
     border-radius:2px;
     color: black;
-    padding: 10px;
+    padding: 3px;
     border-radius: 10px;
 
  }  
@@ -99,8 +99,8 @@ h1{
 .text5{
     position: absolute; 
     top: 50%;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 7%;
+    margin-left: 8%;
     font-size: 20px;
 
 }
@@ -164,9 +164,9 @@ h1{
     }
     .oo{
         position: absolute;
-        left: 14%;
+        left: 13%;
         text-align: center;
-        top:45%;
+        top:15%;
         padding: 10px 160px;
         display: flex;
         font-size:25px;
@@ -188,7 +188,9 @@ h1{
         
     }
 }
+@media screen and (max-width: 767px){
 
+}
 
    
 
