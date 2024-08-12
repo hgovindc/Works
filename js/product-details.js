@@ -50,4 +50,10 @@ function addToCart(event) {
     } else {
         alert('Product already in cart');
     }
-}
+ }
+ 
+
+ 
+
+//=====================================================//
+

@@ -83,9 +83,9 @@ function displayProducts(products) {
 
         productCard.innerHTML = `
             <img src="${product.thumbnail}" alt="${product.title}" style="max-width: 100%;">
-            <h2>${product.title}</h2>
+           <h2>${product.title.length>=20?`${product.title.substring(0,15)}...`:product.title}</h2>
             <p>$${product.price}</p>
-            <button class="add-to-cart-btn" data-id="${product.id}">Add to Cart</button>
+            
         `;
 
         productCard.addEventListener('click', () => {
@@ -101,3 +101,4 @@ function displayProducts(products) {
         button.addEventListener('click', addToCart);
     });
 }
+

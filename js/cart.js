@@ -46,4 +46,6 @@ function removeFromCart(event) {
     cart = cart.filter(id => id !== productId);
     localStorage.setItem('cart', JSON.stringify(cart));
     location.reload();
+// }=======================================================//
+
 }

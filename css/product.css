@@ -14,7 +14,8 @@ header nav {
 }
 
 header nav a {
-    color:red;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color:black;
     text-decoration: none;
 }
 
@@ -80,7 +81,7 @@ header nav a:hover {
 }
 
 .product-info .add-to-cart-btn:hover {
-    background-color: #87a406;
+    background-color: #281004;
 }
 
 .product-details-container img {
