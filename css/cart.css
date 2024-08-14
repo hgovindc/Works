@@ -61,6 +61,7 @@ nav a {
     font-size: 18px;
     margin: 10px 0;
     color: #eb2405;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .product-card p, .cart-item p {
