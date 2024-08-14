@@ -5,11 +5,11 @@
    padding: 10px;
 }
 .remove-from-cart-btn:hover{
-    background-color:black;
+    background-color:rgb(222, 19, 19);
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
+    background-color: #171616;
     margin: 0;
     padding: 0;
 }
@@ -36,7 +36,7 @@ nav a {
 }
 
 #product-list, #cart-list {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     padding: 20px;
@@ -60,10 +60,11 @@ nav a {
 .product-card h2, .cart-item h2 {
     font-size: 18px;
     margin: 10px 0;
+    color: #eb2405;
 }
 
 .product-card p, .cart-item p {
-    color: #555;
+    color: #161616;
     font-size: 16px;
 }
 
@@ -78,7 +79,7 @@ nav a {
 }
 
 .add-to-cart-btn:hover {
-    background-color: #241003;
+    background-color: #eb2405;
 }
 /*  */
 /* Add this to your existing styles.css */
@@ -140,4 +141,7 @@ nav a {
 .container{
     margin-left: 200px;
     margin-right: 200px;
+}
+.price-details{
+    color: white;
 }

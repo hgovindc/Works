@@ -10,6 +10,8 @@ async function displayCartItems() {
         cartList.innerHTML = '<p>Your cart is empty.</p>';
         return;
     }
+   
+    
 
     try {
         const response = await fetch('https://dummyjson.com/products');
@@ -22,8 +24,8 @@ async function displayCartItems() {
 
             cartItem.innerHTML = `
                 <img src="${product.thumbnail}" alt="${product.title}" style="max-width: 100%;">
-                <h2>${product.title}</h2>
-                <p>$${product.price}</p>
+                 <h2>${product.title.length>=20?`${product.title.substring(0,15)}...`:product.title}</h2>
+                <p><b>$${product.price}</b></p>
                 <button class="remove-from-cart-btn" data-id="${product.id}">Remove from Cart</button>
             `;
 
@@ -48,4 +50,21 @@ function removeFromCart(event) {
     location.reload();
 // }=======================================================//
 
+}
+// Prices and discounts can be updated dynamically
+let price =`${product.price}`;
+let discount = `${product.discount}`;
+let deliveryCharges = 0; // Free delivery
+
+let totalAmount = price - discount;
+str+=`
+`
+document.getElementById("price").innerHTML =`&#8377;${price.toLocaleString()}`;
+document.getElementById("discount").innerHTML = ` &#8377;${discount.toLocaleString()}  `;
+document.getElementById("total").innerHTML = `&#8377;${totalAmount.toLocaleString()}`;
+
+if (deliveryCharges === 0) {
+    document.getElementById("delivery").innerHTML = "Free";
+} else {
+    document.getElementById("delivery").innerHTML =`&#8377;${deliveryCharges.toLocaleString()}`;
 }

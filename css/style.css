@@ -31,6 +31,7 @@ nav a {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     padding: 20px;
+
 }
 
 .product-card, .cart-item {
@@ -42,7 +43,11 @@ nav a {
     text-align: center;
     padding: 20px;
 }
-
+.product-card:hover{
+    background-color: rgb(30, 27, 28);
+    transition: 0.5s;
+    color: rgb(229, 223, 223);
+}
 .product-card img, .cart-item img {
     max-width: 100%;
     height: auto;
@@ -54,7 +59,7 @@ nav a {
 }
 
 .product-card p, .cart-item p {
-    color: #555;
+    color: rgb(227, 224, 224);
     font-size: 16px;
 }
 
@@ -131,4 +136,21 @@ nav a {
 .container{
     margin-left: 200px;
     margin-right: 200px;
+}
+.rating{
+    background-color:#1fb009;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+   border-radius: 15px;
+   border: none;
+   padding: 5px;
+}
+.discount{
+    margin-right: 20px ;
+    color:rgb(243, 8, 8);
+
+}
+.p{
+    top: 20px;
 }

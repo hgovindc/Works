@@ -35,9 +35,13 @@ function displayProducts(products) {
 
         productCard.innerHTML = `
             <img src="${product.thumbnail}" alt="${product.title}" style="max-width: 100%;">
-            <h2>${product.title}</h2>
-            <p>$${product.price}</p>
-            <button class="add-to-cart-btn" data-id="${product.id}">Add to Cart</button>
+            <h2><b>${product.title}<b></h2>
+            <p><b>$${product.price}</b></p>
+           <div><b><button class="rating">${product.rating}<b></button></div>
+
+        <span class="discount percentage"><b>${Math.ceil(product.discountPercentage)}%off</b></span>
+
+            <button class="add-to-cart-btn" data-id="${product.id}"><b>Add to Cart</b></button>
         `;
 
         productList.appendChild(productCard);
@@ -84,7 +88,13 @@ function displayProducts(products) {
         productCard.innerHTML = `
             <img src="${product.thumbnail}" alt="${product.title}" style="max-width: 100%;">
            <h2>${product.title.length>=20?`${product.title.substring(0,15)}...`:product.title}</h2>
-            <p>$${product.price}</p>
+           
+            <p class="p"><b>$${product.price}</b></p>
+           <div><button class="rating">${product.rating}</button></div>
+        
+        <span class="discount ">${Math.ceil(product.discountPercentage)}%off</span>
+
+            <button class="add-to-cart-btn" data-id="${product.id}">Add to Cart</button>
             
         `;
 
