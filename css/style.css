@@ -1,0 +1,79 @@
+
+.calculator{
+    align-items: center;
+    justify-self:center;
+    margin-top: 5%;
+    margin-left: 550px;
+    border: 1px black solid;
+    height: 605px;
+    width: 25%;
+    box-shadow: white 0px 1px 2px 2px;
+
+}
+.int{
+    border-style: none;
+    width: 375px;
+    /* background-color: */
+    height: 45px;
+    background-color: rgb(19, 19, 21);
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+   
+
+
+}
+.operator{
+    padding: 5px 10px;
+    font-size: medium;
+    background-color: black;
+    color: rgb(38, 222, 14);
+    border-radius: 16px;
+    border-style: none;
+    text-align: center;
+    /* box-shadow: rgb(23, 22, 22) 0px 2px 25px 10px; */
+    /* margin-left: 30px; */
+}
+.equalBtn{
+    border-style: none;
+    background-color: orange;
+    border-radius: 16px;
+    color: #000;
+    /* margin-left: 30px; */
+    /* box-shadow: rgb(23, 22, 22) 0px 2px 25px 10px; */
+
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+    border-style: none;
+    object-fit: cover;
+    /* box-shadow: rgb(23, 22, 22) 0px 2px 25px 10px;
+} */}
+.calculator button{
+    /* padding: 30px; */
+    height: 75px;
+    width:78px ;
+    margin: 12px 5px;
+    font-size: 35px;
+    /* margin-top: 55px; */
+    margin-left: 7px;
+    border-radius: 50%;
+}
+.operator1{
+    background-color: black;
+    color: rgb(38, 222, 14);
+    border-radius: 16px;
+    border-style: none;
+    /* padding: 20px; */
+}
+.div1{
+    margin-top: 60px;
+  
+
+
+}
+
+    
+
